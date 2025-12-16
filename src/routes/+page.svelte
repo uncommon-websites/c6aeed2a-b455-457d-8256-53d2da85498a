@@ -6,14 +6,11 @@
   import Testimonials from "$lib/components/Testimonials.svelte";
   import TeamSmart from "$lib/components/TeamSmart.svelte";
   import Adoption from "$lib/components/Adoption.svelte";
-  import Integrations from "$lib/components/Integrations.svelte";
-  import Models from "$lib/components/Models.svelte";
-  import TrustedBy from "$lib/components/TrustedBy.svelte";
   import Pricing from "$lib/components/Pricing.svelte";
   import Footer from "$lib/components/Footer.svelte";
 </script>
 
-<div class="bg-black min-h-screen text-white font-sans selection:bg-blue-500/30">
+<div class="bg-black min-h-screen text-white font-sans selection:bg-primary-500/30">
   <Navbar />
   
   <main>
@@ -23,9 +20,6 @@
     <Testimonials />
     <TeamSmart />
     <Adoption />
-    <Integrations />
-    <Models />
-    <TrustedBy />
     <Pricing />
   </main>
 

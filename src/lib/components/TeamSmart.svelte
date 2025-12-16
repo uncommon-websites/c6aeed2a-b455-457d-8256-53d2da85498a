@@ -3,69 +3,54 @@
 </script>
 
 <section class="py-24 bg-black text-white">
-	<div class="max-w-[1400px] mx-auto px-6">
+	<div class="max-w-[1400px] mx-auto px-6" id="about">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 			<div>
-				<h2 class="text-4xl md:text-5xl lg:text-6xl font-serif font-normal mb-12 leading-tight">
-					Every team gets smarter<br />
-					with Sana
+				<h2 class="text-4xl md:text-5xl lg:text-6xl font-sans font-bold mb-12 leading-tight">
+					Built by PE and consulting<br />
+					<span class="text-primary-500">veterans</span>
 				</h2>
 
-				<div class="space-y-6">
-					<div class="flex items-center gap-3 text-red-400 font-medium">
-						<div class="w-2 h-2 bg-red-400 rounded-sm"></div>
-						Sales teams
+				<div class="space-y-8">
+					<div>
+						<div class="flex items-center gap-3 text-primary-400 font-semibold mb-3">
+							<div class="w-2 h-2 bg-primary-400 rounded-sm"></div>
+							Frederik Kofoed Hansen, CEO
+						</div>
+						<p class="text-gray-400 text-sm leading-relaxed pl-5 border-l border-white/10 ml-1">
+							6+ years at Blackstone leading commercial due diligence across major deals. Experienced firsthand the slow, expensive traditional process and knows exactly where investors lose time and money.
+						</p>
 					</div>
-					<p class="text-gray-400 text-sm leading-relaxed pl-5 border-l border-white/10 ml-1 mb-8">
-						Optimize every stage of the deal lifecycle with AI that helps you prep for calls, answers your RFPs, and updates your CRM.
-					</p>
 
-					<div class="flex items-center gap-3 text-gray-500 hover:text-white transition-colors cursor-pointer">
-						<div class="w-2 h-2 bg-gray-500 rounded-sm"></div>
-						Customer support
+					<div>
+						<div class="flex items-center gap-3 text-primary-400 font-semibold mb-3">
+							<div class="w-2 h-2 bg-primary-400 rounded-sm"></div>
+							Soren Biltoft-Knudsen, President
+						</div>
+						<p class="text-gray-400 text-sm leading-relaxed pl-5 border-l border-white/10 ml-1">
+							Executed 40+ commercial due diligences at BCG. Deep pattern recognition across industries shows him exactly how to compress weeks into days without sacrificing quality.
+						</p>
 					</div>
-					<div class="flex items-center gap-3 text-gray-500 hover:text-white transition-colors cursor-pointer">
-						<div class="w-2 h-2 bg-gray-500 rounded-sm"></div>
-						In-house operations
-					</div>
-					<div class="flex items-center gap-3 text-gray-500 hover:text-white transition-colors cursor-pointer">
-						<div class="w-2 h-2 bg-gray-500 rounded-sm"></div>
-						Financial services
-					</div>
-					<div class="flex items-center gap-3 text-gray-500 hover:text-white transition-colors cursor-pointer">
-						<div class="w-2 h-2 bg-gray-500 rounded-sm"></div>
-						Industrial companies
-					</div>
-					<div class="flex items-center gap-3 text-gray-500 hover:text-white transition-colors cursor-pointer">
-						<div class="w-2 h-2 bg-gray-500 rounded-sm"></div>
-						Law firms
+
+					<div>
+						<div class="flex items-center gap-3 text-primary-400 font-semibold mb-3">
+							<div class="w-2 h-2 bg-primary-400 rounded-sm"></div>
+							Harshil Rastogi, CTO
+						</div>
+						<p class="text-gray-400 text-sm leading-relaxed pl-5 border-l border-white/10 ml-1">
+							Built AI systems at Google Ads detecting fraud at massive scale. 10 years building production systems means he knows how to ship AI that investors can actually trust.
+						</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="relative">
-                <div class="rounded-xl overflow-hidden aspect-square relative">
-                     <!-- Using a placeholder image that looks like the person in the screenshot -->
-                     <!-- Since I can't use external images easily without knowing if they persist, I'll use a colored placeholder or a gradient if I can't find one. 
-                     But the prompt allows me to use the screenshot as reference. I will try to simulate the UI over an image. -->
-                     <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" alt="Person using AI" class="w-full h-full object-cover grayscale opacity-80" />
-                     
-                     <!-- Chat Input Overlay -->
-                     <div class="absolute bottom-8 left-8 right-8 bg-white rounded-2xl p-2 shadow-2xl">
-                         <div class="flex items-center gap-2 px-2 py-1">
-                             <span class="text-black font-medium">Crea</span><span class="w-0.5 h-5 bg-black animate-pulse"></span>
-                         </div>
-                         <div class="flex justify-between items-center mt-2 px-2">
-                             <div class="flex gap-4 text-gray-400">
-                                 <Paperclip size={18} />
-                                 <Image size={18} />
-                                 <AtSign size={18} />
-                                 <Smile size={18} />
-                             </div>
-                             <div class="w-8 h-8 bg-black rounded-full flex items-center justify-center text-white">
-                                 <ArrowUp size={16} />
-                             </div>
-                         </div>
+                <div class="rounded-xl overflow-hidden aspect-square relative bg-gradient-to-br from-primary-950 to-black border border-white/10 flex items-center justify-center">
+                     <!-- Professional business setting placeholder -->
+                     <div class="text-center p-12">
+                         <div class="text-6xl mb-4 opacity-20">🤝</div>
+                         <div class="text-gray-500 text-sm">Combined 20+ years experience</div>
+                         <div class="text-gray-600 text-xs mt-2">Blackstone • BCG • Google</div>
                      </div>
                 </div>
 			</div>

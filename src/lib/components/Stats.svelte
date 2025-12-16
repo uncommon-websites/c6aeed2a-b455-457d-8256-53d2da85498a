@@ -8,13 +8,13 @@
 			<!-- Stat 1 -->
 			<div class="flex flex-col h-full justify-between group cursor-pointer">
 				<p class="text-sm text-gray-400 mb-8 leading-relaxed">
-					Global law firm automates compiling and analysis of legal docs
+					Mega cap PE fund completed comprehensive market research in record time
 				</p>
 				<div>
-					<div class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">62%</div>
+					<div class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">120</div>
 					<div class="flex items-center gap-2">
-						<div class="w-2 h-2 rounded-full bg-green-500"></div>
-						<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Time Savings</span>
+						<div class="w-2 h-2 rounded-full bg-primary-500"></div>
+						<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Interviews in One Week</span>
 					</div>
 				</div>
 			</div>
@@ -22,13 +22,13 @@
 			<!-- Stat 2 -->
 			<div class="flex flex-col h-full justify-between group cursor-pointer">
 				<p class="text-sm text-gray-400 mb-8 leading-relaxed">
-					European fintech scales up uses AI agent for new hire onboarding
+					Nordic PE firm conducted multilingual customer research across Europe
 				</p>
 				<div>
-					<div class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">10h</div>
+					<div class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">60</div>
 					<div class="flex items-center gap-2">
-						<div class="w-2 h-2 rounded-full bg-green-500"></div>
-						<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Per Week/Employee Saved</span>
+						<div class="w-2 h-2 rounded-full bg-primary-500"></div>
+						<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Interviews Across 5 Countries</span>
 					</div>
 				</div>
 			</div>
@@ -36,13 +36,13 @@
 			<!-- Stat 3 -->
 			<div class="flex flex-col h-full justify-between group cursor-pointer">
 				<p class="text-sm text-gray-400 mb-8 leading-relaxed">
-					Leading Swedish mining manufacturer automates R&D analysis workflows
+					Deliver comprehensive diligence at a fraction of traditional consulting costs
 				</p>
 				<div>
-					<div class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">50%</div>
+					<div class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">5%</div>
 					<div class="flex items-center gap-2">
-						<div class="w-2 h-2 rounded-full bg-green-500"></div>
-						<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Time Savings</span>
+						<div class="w-2 h-2 rounded-full bg-primary-500"></div>
+						<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Cost vs Traditional</span>
 					</div>
 				</div>
 			</div>
@@ -50,26 +50,16 @@
 			<!-- Stat 4 -->
 			<div class="flex flex-col h-full justify-between group cursor-pointer">
 				<p class="text-sm text-gray-400 mb-8 leading-relaxed">
-					Industrial market leader uses AI agent to augment customer support
+					From project kickoff to final report delivery with full auditability
 				</p>
 				<div>
-					<div class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">2x</div>
+					<div class="text-5xl md:text-6xl font-normal mb-2 tracking-tight">Days</div>
 					<div class="flex items-center gap-2">
-						<div class="w-2 h-2 rounded-full bg-green-500"></div>
-						<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Number of Issues Resolved</span>
+						<div class="w-2 h-2 rounded-full bg-primary-500"></div>
+						<span class="text-xs font-semibold tracking-wider text-gray-400 uppercase">Not Weeks</span>
 					</div>
 				</div>
 			</div>
 		</div>
-
-        <!-- Navigation Buttons -->
-        <div class="flex justify-end gap-2 mt-12">
-            <button class="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors">
-                <ArrowLeft size={16} />
-            </button>
-            <button class="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors">
-                <ArrowRight size={16} />
-            </button>
-        </div>
 	</div>
 </section>
